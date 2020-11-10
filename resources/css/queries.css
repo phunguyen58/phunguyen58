@@ -1,0 +1,75 @@
+
+/* Cell phones to small tablets */
+@media only screen and (max-width: 1300px){
+	.logo{
+		margin-left: 43.5%;
+		}
+	.main-nav{
+		margin-left: 34%;
+		}
+}
+
+@media only screen and (max-width: 1125px){
+	.logo{
+		margin-left: 44%;
+	}
+		.main-nav{
+			margin-left: 34%;
+		}
+}
+@media only screen and (max-width: 825px){
+	.logo{
+	margin-left: 38.5%;
+	}
+	.main-nav{
+	margin-left: 24.5%;
+	}
+	.heading-main-box{
+		margin-left: -8%;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	.logo{
+		margin-left: 35%;
+	}
+	.main-nav{
+		margin-left: 18.5%;
+	}
+	.heading-main-box{
+		margin-left: -12%;
+	}
+}
+@media only screen and (max-width: 540px){
+	.main-nav{
+		margin-left: 12.5%;
+	}
+	.heading-main-box{
+		margin-left: -15%;
+	}
+	h1{
+		font-size: 90%;
+	}
+	.content__container {
+		font-size: 77%;
+		margin-left: -39%;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.logo{
+		margin-left: 30%;
+	}
+	.main-nav{
+		font-size: 10px;
+		margin-left: 6%;
+	}
+	.content__container{
+		font-size: 8px;
+		margin-left: -42%;
+	}
+	.btn{
+		font-size: 10px;
+		margin-left: 2%;
+	}
+}

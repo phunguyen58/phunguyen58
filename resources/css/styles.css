@@ -1,0 +1,225 @@
+/*------------------------------------*/
+/*----------------default- setup---------*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color: #ffffff;
+    text-rendering: : optimizeLegibility;
+}
+
+body {
+    overflow-x: hidden;
+}
+/*--------------------------------------*/
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/*-------------header----------------------------------------*/
+/*-----------------------------------------*/
+/* h1{
+    text-transform: unset;
+    font-size: 100%;
+    font-weight: 10;
+    word-spacing: 3px;
+    color: #F6F6F6;
+    line-height: 105%;
+    margin-bottom: 80px;
+    text-align: center;
+    margin-left: -77.5%;
+} */
+.heading-main-box{
+    position: absolute;
+    top: 50%;
+    left: 39.5%;
+    transform: translate(-50%, -50%);
+    width: 1140px;
+}
+
+.btn{
+    font-size: 21px;
+    text-decoration: none;
+    color: #363538;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin: 0 5px;
+    width: 270px;
+    text-align: center;
+    transition: all .3s;
+    margin-left: 0%;
+
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #b4ada8;
+}
+
+
+header {
+    background-image: linear-gradient(45deg,rgba(54,53,56,0.1) 5%,rgba(246,246,246,0.3)), url("../img/Looping\ Gif\ of\ space\ -\ Imgur.gif");
+    background-size: cover;
+    background-position:  center;
+    height: 100vh;
+    /*view height*/
+}
+
+.logo{
+    width: 150px;
+    margin-left: 584px;
+    margin-top: 25px;
+}
+
+.main-nav{
+    list-style: none;
+    margin-left: 469px;
+    margin-top: 40px;
+}
+
+
+
+
+.social-icons li{
+    display: inline-block;
+    font-size: 150%;
+    margin-left: 30px;
+    color: white;
+    margin-top: -10px;
+    margin-right: 10px;
+    margin-left: 21.7px;
+}
+
+.social-icons li i{
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.social-icons li i:hover,
+.social-icons li i:active{
+    transform: scale(1.3);
+    color: #408697;
+}
+
+
+
+
+/*-----------------quote--------------------*/
+.quote-pic{
+    width: 150px;
+    height: 150px;
+    margin-left: 50%;
+    margin-top: 7%;
+    border-radius: 50%;
+}
+
+h2{
+    font-size: 21px;
+    font-weight: 150;
+    color: white;
+    margin-left: 67%;
+    margin-top: -11%;
+}
+
+/*------------------content_container-------------------*/
+
+    
+    .content__container {
+        overflow: hidden;
+        height: 40px;
+        width: 1140px;
+        padding: 0 40px;
+        overflow:hidden;
+        margin-left: -38.5%;
+        text-transform: unset;
+        font-size: 100%;
+        font-weight: 10;
+        word-spacing: 3px;
+        color: #F6F6F6;
+        line-height: 105%;
+        margin-bottom: 60px;
+    }
+
+  
+    .content__container__list {
+        margin-top: 0;
+        text-align: center;
+        list-style: none;
+        -webkit-animation-name: change;
+        -webkit-animation-duration: 36s;
+        -webkit-animation-iteration-count: infinite;
+        animation-name: change;
+        animation-duration: 36s;
+        animation-iteration-count: infinite;
+    }
+  
+    .content__container__list__item {
+          line-height:40px;
+          margin:0;
+    }
+    
+  
+  @-webkit-keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+  }
+  
+  @-webkit-keyframes change {
+    0%, 12.66%, 100% {transform:translate3d(0,0,0);}
+    16.66%, 29.32% {transform:translate3d(0,-25%,0);}
+    33.32%,45.98% {transform:translate3d(0,-50%,0);}
+    49.98%,62.64% {transform:translate3d(0,-75%,0);}
+    66.64%,79.3% {transform:translate3d(0,-50%,0);}
+    83.3%,95.96% {transform:translate3d(0,-25%,0);}
+  }
+  
+  @-o-keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+  }
+  
+  @-o-keyframes change {
+    0%, 12.66%, 100% {transform:translate3d(0,0,0);}
+    16.66%, 29.32% {transform:translate3d(0,-25%,0);}
+    33.32%,45.98% {transform:translate3d(0,-50%,0);}
+    49.98%,62.64% {transform:translate3d(0,-75%,0);}
+    66.64%,79.3% {transform:translate3d(0,-50%,0);}
+    83.3%,95.96% {transform:translate3d(0,-25%,0);}
+  }
+  
+  @-moz-keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+  }
+  
+  @-moz-keyframes change {
+    0%, 12.66%, 100% {transform:translate3d(0,0,0);}
+    16.66%, 29.32% {transform:translate3d(0,-25%,0);}
+    33.32%,45.98% {transform:translate3d(0,-50%,0);}
+    49.98%,62.64% {transform:translate3d(0,-75%,0);}
+    66.64%,79.3% {transform:translate3d(0,-50%,0);}
+    83.3%,95.96% {transform:translate3d(0,-25%,0);}
+  }
+  
+  @keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+  }
+  
+  @keyframes change {
+    0%, 12.66%, 100% {transform:translate3d(0,0,0);}
+    16.66%, 29.32% {transform:translate3d(0,-25%,0);}
+    33.32%,45.98% {transform:translate3d(0,-50%,0);}
+    49.98%,62.64% {transform:translate3d(0,-75%,0);}
+    66.64%,79.3% {transform:translate3d(0,-50%,0);}
+    83.3%,95.96% {transform:translate3d(0,-25%,0);}
+  }
